@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F4F3;
+}
+.header {
+    background-color: #69140E;
+    border-bottom: 5px solid #D58936;
+}
+
+.nav-item {
+    color: #ffffff !important;
+}
+
+.carousel img {
+    width: 100vw;
+    height: 80vh;
+
+}
+
+.footer {
+    background-color: #69140E;
+    border-top: 5px solid #D58936;
+}
+
+.footer img {
+    border-radius: 50% !important;
+    border: 2px dashed #D58936;
+}
+
+.footer i{
+    color: #F2F4F3;
+}

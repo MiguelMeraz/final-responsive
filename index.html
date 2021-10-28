@@ -10,15 +10,145 @@
     <!-- Bootstrap CDN CSS End -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- CSS End -->
+
+    <!--font awesome-->
+      <script src="https://kit.fontawesome.com/ac0f8bcbe7.js" crossorigin="anonymous"></script>
+    <!--font awesome ends-->
     <title>Bootstrap 4.5 Template</title>
   </head>
 <!-- body -->
   <body>
   <!-- content goes below here -->
+  <div class="container-fluid">
 
+    <div class="row header">
 
+      <div class="col d-flex justify-content-start">
+        <img src="images/logo.png" alt="logo" width="100">
+      </div>
 
+      <!--navbar-->
+      <div class="col d-flex justify-content-end ">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <!--<a class="navbar-brand" href="#">Navbar</a>-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://miguelmeraz.github.io/final-project/">Original</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
 
+    <!--Carousel starts-->
+    <div class="row section">
+      <div class="col carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-fluid" src="https://images.pexels.com/photos/1751731/pexels-photo-1751731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src="https://images.pexels.com/photos/5310776/pexels-photo-5310776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--carousel ends-->
+
+    <!--fact section-->
+    <div class="row text-center">
+          
+      <div class="col-sm-12 col-lg-4">
+        <h3>Fact One: Food </h3>
+        <ul>
+            <li>Pizza</li>
+            <li>Cheese Burgers</li>
+            <li>Mexican Food</li>
+        </ul>
+      </div>
+
+      <div class="col-sm-12 col-lg-4">
+        <h3>Fact Two: Fav Runner Shoe Brand</h3>
+        <ul>
+            <li>Addidas</li>
+            <li>Nike</li>
+            <li>Hoka One One</li>
+        </ul>
+      </div>
+
+      <div class="col-sm-12 col-lg-4">
+        <h3>Fact Three: Places Visited</h3>
+        <ul>
+            <li> Nashville, TN</li>
+            <li>Seattle, WA</li>
+            <li>Austin, TX</li>
+        </ul>
+      </div>
+    </div>
+
+    <!--about me-->
+
+    <div class="row text-center aboutme">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h2>About Me: </h2>
+        <p>Hey there and Welcome to my Website, my name is Miguel Meraz from Madera, CA. This is my first official site that I've created from sctrach, it was a fun challenge!
+            My main goal is to eventually set up sort of blog / personal goal tracker site. The goal tracker part is to keep myself held accountable 
+            for those goals that I reach and those that I ultimately fail(Failure is part of the proccess). So feel free to explore the rest of 
+            my site and enjoy.
+        </p>
+      </div>
+    
+      <div class="col-sm-12 col-md-6 col-lg-6 maps">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102007.97760224839!2d-120.17888804129662!3d36.96804388102038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80940b92fdc6db03%3A0x36c342da22e76910!2sMadera%2C%20CA!5e0!3m2!1sen!2sus!4v1635376557343!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </div>
+
+    </div> 
+    
+    <!--footer-->
+    <div class="row footer">
+
+      <div class="col-sm-6 col-lg-6">
+      <img src="images/el_farolito3.jpg" class="rounded float-left" alt="Miguel Meraz" height="175">
+      <br>
+      </div>
+
+      <div class="col-sm-6 col-lg-6 links text-right ">
+        <a href="https://www.instagram.com/mikeisaliar/"><i class="fab fa-instagram fa-3x"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube fa-3x"></i></a>
+        <a href="https://miguelmeraz.github.io/final-project/"><i class="fas fa-random fa-3x"></i></a>
+      </div>
+    </div>
+
+  </div>
 
 
   
